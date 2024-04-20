@@ -62,7 +62,6 @@ def search_to_url(message, much):
                 new_result['url_suffix']]
 
 
-@bot.message_handler(commands=['s'])
 def download_send_name(message):
     chat_id = message.chat.id
     global_message = message.text + '.mp3'
