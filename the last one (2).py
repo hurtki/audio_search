@@ -14,7 +14,7 @@ global global_message
 global_message = None
 
 # Установка токена вашего бота
-bot_token = '6767076048:AAHQcaLZFt24_-cD68OjOSfEgoJN-KcyX8A'
+bot_token = 'YOUR_TOKEN_IS_HERE'
 bot = telebot.TeleBot(bot_token)
 
 
